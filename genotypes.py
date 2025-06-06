@@ -83,3 +83,4 @@ mine_xy100 = Genotype(normal=[('skip_connect', 0), ('sep_conv_5x5', 1), ('skip_c
 HCDARTS = mine_xy10
 
 FPDARTS = Genotype(normal=[('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1)], normal_concat=[2, 3, 4, 5], reduce=[('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('skip_connect', 1),  ('dil_conv_5x5', 3), ('max_pool_3x3', 0), ('avg_pool_3x3', 0), ('dil_conv_5x5', 1)], reduce_concat=[2, 3, 4, 5])
+
